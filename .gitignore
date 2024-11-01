@@ -1,0 +1,11 @@
+# env file
+.env
+
+# node modules
+node_modules
+
+# sqlite db
+wallets.db
+
+# ignroe destination folder
+dist

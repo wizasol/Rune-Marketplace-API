@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  wallet-tracking-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app  # Mount the current directory to the container
+    environment:
+      - NODE_ENV=production
+    # Uncomment if you want to use a specific port
+    # ports:
+    #   - "3000:3000"
